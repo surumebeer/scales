@@ -1,0 +1,7 @@
+type MusicalScale = {
+
+}
+
+type ScaleNames = [
+
+]
