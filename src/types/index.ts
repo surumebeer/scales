@@ -1,7 +1,12 @@
-type MusicalScale = {
-
+export type Key = {
+  name: string;
+  value: number;
 }
 
-type ScaleNames = [
+export type MusicalScale = {
+  name: string;
+  value: number;
+  octave: number;
+}
 
-]
+export type MusicalScales = MusicalScale[];

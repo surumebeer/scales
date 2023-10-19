@@ -11,7 +11,11 @@ module.exports = {
 			{
 				template: "./index.html"
 			}
-		]
+		],
+		emotion: true,
+		react: {
+			importSource: '@emotion/react',
+		},
 	},
 	module: {
 		rules: [
